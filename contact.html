@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/369fe9d219.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <nav>
+        <div class="nav-box">
+            <ul class="nav-menu1">
+                <li><i class="fa-solid fa-cube"></i></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <ul class="nav-menu2">
+                <li><i class="fa-solid fa-cube"></i></li>
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button><i class="fa-solid fa-bars"></i></button>
+                    <div class="dropdown-menu menu-grid">
+                        <div>
+                            <div class="dropdown-heading">Info</div>
+                            <div class="dropdown-links">
+                                <a href="#" class="link">Home</a>
+                                <a href="index.html" class="link">About</a>
+                                <a href="contact.html" class="link">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section class="introduction">
+
+        <div class="container1">
+            <article class="article-container">
+                <h1 class="grid-article-h1">Karan Patel</h1>
+            </article>
+            <img class="center-fit" name="background" src="images/pinkclouds.jpg">
+        </div>
+        <div class="form-container">
+            <form>
+                <h2>Contact Me</h2>
+                <label>Name</label>
+                <input placeholder="Name">
+                <br>
+                <label>Email</label>
+                <input placeholder="Email">
+                <br>
+                <label>Message</label>
+                <textarea placeholder="Your Message" rows="10" cols="40"></textarea>
+                <br>
+                <button class="form-btn" type="submit">Send</button>
+            </form>
+        </div>
+
+
+
+    </section>
+
+    <script src="js/index.js" defer></script>
+</body>
+
+</html>
